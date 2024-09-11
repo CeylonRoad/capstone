@@ -8,9 +8,9 @@
 7.	Type git branch -M main
 8.	Type git push -u origin main
 ### If there is any changes to the code then proceed the next step
-9.	git add .
-10.	git commit -m “second commit”
-11.	git push origin main
+1.	git add .
+2.	git commit -m “second commit”
+3.	git push origin main
 
 # Single JS file Import
 ```
