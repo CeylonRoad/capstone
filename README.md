@@ -4,7 +4,7 @@
 3.	Type git init
 4.	Type git add .
 5.	Type git commit -m “first commit”
-6.	Type git remote add origin https://github.com/leagueofcoders-git/loc-website-2023-1-0.git
+6.	Type git remote add origin https://github.com/ceylonroad/your-repository-name.git
 7.	Type git branch -M main
 8.	Type git push -u origin main
 ### If there is any changes to the code then proceed the next step
