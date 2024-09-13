@@ -70,3 +70,46 @@
     };
 
 ```
+
+#---------------------------------------------------------------------------------
+# Using Helmet
+
+```
+//Method 1
+import React from "react";
+import "./App.css";
+import { Helmet } from "react-helmet";
+
+function App() {
+    return (
+        <div className="App">
+            <h1>
+              Hello World
+            </h1>
+            <Helmet>
+               <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            </Helmet>
+        </div>
+    );
+}
+
+export default App;
+
+``
+#---------------------------------------------------------------------------------
+# Install AOS Package
+
+```
+
+npm i aos — save
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
+```
