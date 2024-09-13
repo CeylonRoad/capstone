@@ -100,7 +100,7 @@ export default App;
 # Install AOS Package
 
 ```
-npm i aos — save
+npm install aos — save
 
 import AOS from "aos";
 import "aos/dist/aos.css";
