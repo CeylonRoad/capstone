@@ -95,12 +95,11 @@ function App() {
 
 export default App;
 
-``
+```
 #---------------------------------------------------------------------------------
 # Install AOS Package
 
 ```
-
 npm i aos — save
 
 import AOS from "aos";
@@ -110,6 +109,5 @@ useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-
-
+  
 ```
